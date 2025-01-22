@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.quicksand-uniquifier{
+    display: grid;
+    gap:20px;
+    grid-template-areas:
+    " header header nav "
+    "main div div div"
+    "footer div div";
+
+}
+/* Media Screen */
+ @media screen and (max-width:576) {
+    .quicksand-uniquifier{
+        display: grid;
+        gap:20px;
+        grid-template-areas:
+        " header "
+         "nav "
+        "main div div div"
+        "footer div div";}
+    
+ }
+ @media screen and (min-width:576) {
+    .quicksand-uniquifier{
+        display: grid;
+        gap:20px;
+        grid-template-areas:
+        " header "
+        "header"
+        " nav "
+        "main div div div"
+        "footer div div";}
+    
+ }
+/* nav style */
+nav {
+    margin:0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{ 
+    display:flex;
+    margin-right:20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration:none;
+    
+}
+.buttonfirst{
+    justify-content:right;
+}
+/*Imame */
+.photo1{
+    display:flex;
+    margin-left:5px;
+    padding-left:1px;
+}
+
+/* nav color*/
+.dark1{
+    color:#FEA301;
+}
+.dark2{
+    color:#01ACFD;
+}
+.dark3{
+    color:#05D4DF;
+}
+.dark4{
+    color:#5D58EF;
+}
+.dark5{
+    margin-right:200px;
+}
+
+.navbutton{
+    
+    background-color:#FEA301;
+    height:40px;
+    width: 125px;
+    border-radius:10px;
+    color:white;
+    font-size: 15px;
+    margin:right;
+}
+/* Container1 */
+.Container1{
+    display:grid;
+    grid-template-columns: auto;
+    gap:60px;
+    display: flex;
+    padding: 30px;
+}
+.Firstimage{
+    
+    height:575px;
+    width:470px;
+ 
+}
+.section1{
+    margin-top:150px;
+    margin-left:50px;
+}
+.Enroll{
+    background-color:black;
+    height:30px;
+    width: 110px;
+    border-radius:10px;
+    color:white;
+    font-size: 10px;
+    
+}
+.hero-kids{
+    margin-right:50px;
+    height: 150px;
+    width: 200px;
+
+}
+
+
+/* bg color*/
+backimage{
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+/* card design*/
+
+
+.threepic{
+    margin:auto;
+    gap:20px;
+    display: flex;
+    height:485px;
+    width:1160px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.card1{
+    border-radius:10px;
+   background:linear-gradient(-180deg,#DEF5FF, #FFFFFF, whitesmoke);
+}
+.card2{
+    border-radius:10px;
+    
+    background:linear-gradient(-180deg,#FFF4DC, white, whitesmoke);
+}
+
+.card3{
+    justify-content: center;
+    border-radius:10px;
+    background:linear-gradient(-180deg,#F2E8FF, white, whitesmoke);
+}
+
+.tree{
+   padding: 40px 30px 50px 120px;
+}
+
+/* title */
+.title2{
+    text-align: center;
+}
+
+.graph{
+    border: 5px 10px 5px 10px;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+}
+
+
+.Read1{
+    text-align: center;
+    color:#64C8FF;
+}
+.Read2{
+    text-align: center;
+    color:#F0AA00;
+}
+.Read3{
+    text-align: center;
+    color:#8700FF;
+}
+.icon-arrow{
+   padding-left:250px;
+}
+.cardset{
+    border-radius:10px;
+    background:linear-gradient(-180deg,#F2E8FF, white, #FFFFF2);
+}
+
+
+
+/* Card Two */
+.container2{
+    align-items: center;
+    background:linear-gradient(-180deg,#F2E8FF, white, #FFFFF2);
+    justify-content: center;
+    display:flex;
+    gap:30px;
+   
+}
+.cardset1{
+    border-radius:10px;
+    background-color:whitesmoke;
+}
+.paragraph0{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.free{
+    border-radius:10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer section */
+@media screen and (min-width:576) {
+    
+    .container3{ display: grid;
+        grid-template-columns: auto;
+
+    }
+}
+
+.container3{
+    
+    align-items: center;
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    gap:200px;
+}
+.footercard1{
+    color:white;
+}
+
+
+.footerul{
+    list-style: none;
+    text-decoration: none;
+
+}
+.footernav{
+    list-style:none;
+    text-decoration: none;
+    color:white;
+
+}
